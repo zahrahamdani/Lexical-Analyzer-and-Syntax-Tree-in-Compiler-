@@ -1,5 +1,10 @@
+**Lexical-Analyzer-and-Syntax-Tree-in-Compiler-**
+
+
 Implementation of lexical analyzer:
+
 •	Tokenization of expression (expression can be i.e a+(b*c)or 3+ (5*2)digits, alphabets, characters)
+
 •	Building regex for the expression •Output tags/ tokens of the expression (i.e.  ['a', '+', '(', 'b', '*', 'c', ')'])
 
 
@@ -20,9 +25,13 @@ The output of the expression “int sum = 100 + b + c” when we pass it through
 
 
 Implementation of syntax tree using AST library of python:
+
 Syntax tree is in which each leaf node describes an operand & each interior node describes an operator. The syntax tree is shortened form of the Parse Tree.
+
 •	We use the AST (Abstract Syntax Tree) library in python to display the syntax tree of an expression. 
+
 •	“Ast.parse” will form a syntax tree.
+
 •	We use “dump” function to store the data in file and then display it on the output screen.
 
 The syntax tree of expression “result = b + c” is:
